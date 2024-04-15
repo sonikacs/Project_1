@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h3> 4th semester electives</h3>
+    <hr/>
+    <h4>ability enhancement course choices:</h4>
+        <list>
+            <ul>
+                <li>Scala</li>
+                <a href="https://en.wikipedia.org/wiki/Scala_(programming_language)" target="_main">click for info</a>
+                <li>mangoDB</li>
+                <a href="https://en.wikipedia.org/wiki/MongoDB" target="_main">click for info</a>
+                <li>MERN</li>
+                <a href="https://en.wikipedia.org/wiki/MEAN_(solution_stack)" target="_main"> click for info</a>
+                <li>technical writing using latex</li>
+                <a href="https://en.wikipedia.org/wiki/LaTeX" target="_main">click for info</a>
+            </ul>
+        </list>
+    <hr/>
+    <h4>engineering science course</h4>
+        <list>
+            <ul>
+                <li>discrete mathematical structures</li>
+                <li>optimization for machine learning</li>
+                <li>metric spaces</li>
+                <li>algorithmic game theory</li>
+            </ul>
+        </list>
+    <a href="https://www.google.com/" target="_main">confused?? dekhle bhai ek baar</a>
+    <hr/><hr/>
+    <h4>Student information:</h4>
+    <main>
+    <form>
+        <p>Enter student name:</p>
+        <input type="text" placeholder="name">
+        <p>select stream:
+            <br/>
+            <select name="stream">
+                <option value="CSE">Computer science</option>
+                <option value="ISE">Information science</option>
+                <option value="CSE-AIML">AI-ML</option>
+                <option value="CSE-DS">Data science</option>
+                <option value="ECE">Electronics</option>
+                <option value="ME">Mechanical</option>
+                <option value="Civil">Civil</option>
+            </select>
+        </p>
+        <p>Enter section:</p>
+        <label for="4">
+            <input type="radio" value="section-a" name="section" id="4">Asection
+            <br/>
+            <input type="radio" value="section-b" name="section" id="4">Bsection
+        </label>
+        <p>Enter college email-id:</p>
+        <input type="text" placeholder="mail-id">
+        <hr>
+        <h5>choose ability enhancement course</h5>
+        <label for="ability-enhancement">
+            <input type="radio" value="scala" name="ability-enhancement">scala
+            <input type="radio" value="mongoDB" name="ability-enhancement">MongoDB
+            <input type="radio" value="MERN" name="ability-enhancement">MERN
+            <input type="radio" value="latex" name="ability-enhancement">latex
+        </label>
+        <h5>choose engineering science course</h5>
+        <label for="sci-course">
+            <input type="radio" value="discrete mathematics" name="-sci-course">discrete mathematics
+            <input type="radio" value="optimization for machine learning" name="sci-course">optimization for machine learning
+            <input type="radio" value="metric spaces" name="sci-course">metric spaces
+            <input type="radio" value="algorithmic game theory" name="sci-course">algorithmic game theory
+        </label>
+        <hr/>
+    </form>     
+    </main>
+    <footer>regarding any queries please contact your respecive proctors XD </footer>
+</body>
+</html>
